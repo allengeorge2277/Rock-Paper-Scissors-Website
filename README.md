@@ -23,3 +23,6 @@ To run the project locally:
 1. Clone this repository:
    ```bash
    git clone https://github.com/allengeorge2277/Rock-Paper-Scissors-Website.git
+
+2. View the website:
+   https://allengeorge2277.github.io/Rock-Paper-Scissors-Website

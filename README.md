@@ -22,4 +22,4 @@ A simple and fun Rock-Paper-Scissors game built with HTML, CSS, and JavaScript. 
 To run the project locally:
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/rock-paper-scissors-game.git
+   git clone https://github.com/allengeorge2277/Rock-Paper-Scissors-Website.git

@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    background-color: hsl(40, 100%, 96%);
+}
+
+h1{
+    font-size: 3.5rem;
+    color: hsl(0, 0%, 20%);
+}
+
+.choices{
+    margin-bottom: 50px;
+}
+
+.choices button{
+    font-size: 6.5rem;
+    border: none;
+    border-radius: 250px;
+    margin: 5px 10px;
+    padding: 5px 5px;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    background-color:hsl(60, 100%, 89%);
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.choices button:hover{
+    background-color: hsl(60, 100%, 80%);
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.4);
+
+}
+
+#playerDisplay, #computerDisplay {
+    font-size: 2.5rem;
+}
+
+#resultDisplay {
+    font-size: 5.3rem;
+    margin: 30px 0px;
+}
+
+.scoreDisplay{
+    font-size: 2rem;
+}
+
+.greenWon, #playerScore{
+    color: lightgreen;
+}
+
+.redLost, #computerScore{
+    color: lightcoral;
+}
+
+.whiteDraw {
+    color: hsl(0, 0%, 47%);
+}
+
+button {
+  background-color: hsl(40, 100%, 92%);
+  color: hsl(40, 100%, 30%);
+  border: 1px solid hsl(40, 100%, 80%);
+  margin-top: 30px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: hsl(40, 100%, 88%);
+  transform: scale(1.02);
+}
